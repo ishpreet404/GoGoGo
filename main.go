@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"time"
+	// "time"
 )
 
 //	type PERSON struct {
@@ -86,8 +86,11 @@ func main() {
 	// } else {
 	// 	fmt.Println(numRating + 1)
 	// }
-	presentTime := time.Now()
-	fmt.Println(presentTime)
-	fmt.Println(presentTime.Format("01-02-2006 Monday 15:04:05"))
+	// presentTime := time.Now()
+	// fmt.Println(presentTime)
+	// fmt.Println(presentTime.Format("01-02-2006 Monday 15:04:05"))
+	defer fmt.Printf("this is defer statement")
+	defer fmt.Printf("one more defer statement") //LIFO
+	fmt.Printf("this will be printed first \n ")
 
 }
