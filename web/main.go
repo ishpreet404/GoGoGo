@@ -28,5 +28,5 @@ func main() {
 	fmt.Println(parsedurl.Path)
 	fmt.Println(parsedurl.Port())
 	fmt.Printf("query \t")
-	fmt.Println(parsedurl.Query().Get("q"))
+	// fmt.Println(parsedurl.Query().Get("q"))
 }
